@@ -1,5 +1,5 @@
 package strategy;
 
 public interface TrainingProgram {
-    void createProgram();
+    void getProgram();
 }

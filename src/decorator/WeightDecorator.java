@@ -8,8 +8,8 @@ public class WeightDecorator extends TrainingProgramDecorator{
     }
 
     @Override
-    public void createProgram() {
-        super.createProgram();
+    public void getProgram() {
+        super.getProgram();
         this.addExercise();
     }
 

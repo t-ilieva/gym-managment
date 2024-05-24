@@ -11,7 +11,7 @@ public abstract class TrainingProgramDecorator implements TrainingProgram {
     }
 
     @Override
-    public void createProgram() {
-        this.decoratedTrainingProgram.createProgram();
+    public void getProgram() {
+        this.decoratedTrainingProgram.getProgram();
     }
 }
