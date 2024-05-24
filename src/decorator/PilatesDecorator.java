@@ -10,6 +10,10 @@ public class PilatesDecorator extends TrainingProgramDecorator{
     @Override
     public void createProgram() {
         super.createProgram();
+        this.addExercise();
+    }
+
+    private void addExercise() {
         System.out.println("With Pilates");
     }
 }
